@@ -4,12 +4,13 @@
 
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <meta name='viewport' content ='width=divice-width'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
     <div id='demo'></div>
-    <div id='container'>
+    <div class='container'>
         <form name='dlg' action='$PHP_SELF' method='post'>
             <div class="panel panel-default">
                 <div class="panel-heading">
