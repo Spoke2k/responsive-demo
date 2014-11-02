@@ -1,0 +1,31 @@
+#container {
+    padding:20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#container ul {
+    list-style: none;
+    padding: 0;
+}
+
+#container button {
+    width: 100%;
+    padding: 24px 12px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    #container button {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    #container button {
+        font-size: 20px;
+    }
+}
