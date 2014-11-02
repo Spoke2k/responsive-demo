@@ -1,15 +1,15 @@
-#container {
+.container {
     padding:20px;
     margin: 0 auto;
     max-width: 800px;
 }
 
-#container ul {
+.container ul {
     list-style: none;
     padding: 0;
 }
 
-#container button {
+.container button {
     width: 100%;
     padding: 24px 12px;
     margin-bottom: 10px;
@@ -18,14 +18,14 @@
 }
 
 @media (max-width: 700px) {
-    #container button {
+    .container button {
         font-size: 26px;
     }
 }
 
 
 @media (max-width: 450px) {
-    #container button {
+    .container button {
         font-size: 20px;
     }
 }
